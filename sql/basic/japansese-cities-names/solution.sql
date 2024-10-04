@@ -1,5 +1,5 @@
 SELECT 
-    NAME
+    *
 FROM
     CITY
 WHERE

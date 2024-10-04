@@ -1,0 +1,11 @@
+SELECT DISTINCT
+    CITY
+FROM
+    STATION
+WHERE 
+    (LAT_N IS NOT NULL) AND
+    (LONG_W IS NOT NULL) AND
+    (ID % 2 = 0)
+;
+
+
